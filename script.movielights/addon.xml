@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<addon id="script.movielights" version="0.0.1" name="XBMC Movie Lights" provider-name="Kees Verhaar" >
+	<requires>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary>Controls lights based on XBMC status</summary>
+		<description>Controls lights based on XBMC status</description>
+		<platform>all</platform>
+	</extension>
+	<extension point="xbmc.service" library="addon.py">
+	</extension>
+</addon>

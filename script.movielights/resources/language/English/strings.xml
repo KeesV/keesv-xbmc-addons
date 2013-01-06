@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+    <string id="2000">Vera hostname</string>
+    <string id="2001">Vera port</string>
+    
+	<string id="2010">Scene to activate when video is paused</string>
+	<string id="2011">Scene to activate when video is unpaused</string>
+	
+	<string id="2002">Debug</string>
+</strings>

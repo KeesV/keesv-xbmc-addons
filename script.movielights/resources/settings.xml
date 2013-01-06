@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<settings>
+	<category label="General">
+		<setting id="verahost" type="text" label="2000" default="vera.lan" />
+		<setting id="veraport" type="number" label="2001" default="3480" />
+		
+		<setting type="sep" />
+		<setting id="pauseScene" type="number" label="2010" default="15" />
+		<setting id="unpauseScene" type="number" label="2011" default="4" />
+		
+		<setting type="sep" />
+		<setting id="debug" type="bool" label="2002" default="false" />
+	</category>
+</settings>
