@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<addon id="repository.keesv" version="1.0.0" name="KeesV's XBMC Addons" provider-name="KeesV" >
-	<requires>
-	</requires>
-	<extension point="xbmc.addon.repository" name="KeesV's XBMC Addons">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon	id="repository.keesv"
+		name="KeesV's repo"
+		version="1.0.0"
+		provider-name="KeesV">
+	<extension	point="xbmc.addon.repository"
+				name="KeesV's repo">
 		<info compressed="false">https://raw.github.com/KeesV/xbmc-repo/master/addons.xml</info>
-    		<checksum>https://raw.github.com/KeesV/xbmc-repo/master/addons.xml.md5</checksum>
-    		<datadir zip="true">https://raw.github.com/KeesV/xbmc-repo/master/</datadir>
+		<checksum>https://raw.github.com/KeesV/xbmc-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/KeesV/xbmc-repo/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>KeesV's Addons</summary>
-		<description>Download and install add ons by KeesV</description>
+		<summary>Install KeesV's repo</summary>
+		<description>Download and install KeesV's repo</description>
+		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>

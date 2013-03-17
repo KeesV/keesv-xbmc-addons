@@ -56,5 +56,4 @@ while(not xbmc.abortRequested):
         else:
             VIDEO = 0
     
-    printInfo("Tick")
     xbmc.sleep(1000)
