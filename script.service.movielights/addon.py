@@ -47,7 +47,7 @@ player = MyPlayer()
  
 VIDEO = 0
 
-__settings__ = xbmcaddon.Addon(id='script.movielights')
+__settings__ = xbmcaddon.Addon(id='script.service.movielights')
 
 while(not xbmc.abortRequested):
     if xbmc.Player().isPlaying():
